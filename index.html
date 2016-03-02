@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Moveit</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <button data-movey-reset>Reset</button>
+        <div class="box">
+            <svg width="500" height="500" data-movey-target xmlns="http://www.w3.org/2000/svg" viewBox="-50 -55 100 100" stroke-width="2">
+                <g fill="none">
+                    <ellipse stroke="#66899a" rx="6" ry="44"/>
+                    <ellipse stroke="#e1d85d" rx="6" ry="44" transform="rotate(-66)"/>
+                    <ellipse stroke="#80a3cf" rx="6" ry="44" transform="rotate(66)"/>
+                    <circle stroke="#4b541f" r="44"/>
+                </g>
+                <g fill="#66899a" stroke="white">
+                    <circle fill="#80a3cf" r="13"/>
+                    <circle cy="-44" r="9"/>
+                    <circle cx="-40" cy="18" r="9"/>
+                    <circle cx="40" cy="18" r="9"/>
+                </g>
+            </svg>
+        </div>
+
+        <script src="movey.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,20 @@
+.box {
+    width: 50%;
+    margin: 10px auto;
+    padding: 50px 0;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    text-align: center;
+    background-color: #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all .2s linear;
+}
